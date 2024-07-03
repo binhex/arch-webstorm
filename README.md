@@ -43,7 +43,7 @@ docker run -d \
     -v /apps/docker/webstorm:/config \
     -v /apps/docker/webstorm/projects:/data \
     -v /etc/localtime:/etc/localtime:ro \
-    -e WEBPAGE_TITLE=Fleet \
+    -e WEBPAGE_TITLE=WebStorm \
     -e VNC_PASSWORD=mypassword \
     -e ENABLE_STARTUP_SCRIPTS=yes \
     -e UMASK=000 \
