@@ -55,10 +55,10 @@ fi
 ####
 
 # define aur packages
-aur_packages="webstorm webstorm-jre"
+aur_packages="webstorm,webstorm-jre"
 
 # call aur install script (arch user repo)
-source aur.sh
+aur.sh --aur-package "${aur_packages}"
 
 # config novnc
 ###
